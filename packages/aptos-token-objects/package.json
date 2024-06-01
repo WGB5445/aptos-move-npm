@@ -1,6 +1,6 @@
 {
   "name": "@wgb5445/aptos-token-objects",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "module": "index.mjs",
   "types": "index.d.ts",
@@ -20,7 +20,7 @@
   "author": "WGB5445 <wgb98512@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "@wgb5445/aptos-move-stdlib": "workspace: *",
+    "@wgb5445/aptos-framework": "workspace: *",
     "@wgb5445/aptos-stdlib": "workspace: *"
   }
 }

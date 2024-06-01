@@ -1,6 +1,6 @@
 {
   "name": "@wgb5445/aptos-framework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "module": "index.mjs",
   "types": "index.d.ts",
