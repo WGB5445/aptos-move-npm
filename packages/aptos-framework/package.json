@@ -1,0 +1,26 @@
+{
+  "name": "@wgb5445/aptos-framework",
+  "version": "0.0.1",
+  "description": "",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "files": [
+    "sources/*",
+    "Move.toml",
+    "index.d.mts",
+    "index.d.ts",
+    "index.global.js",
+    "index.js",
+    "index.mjs"
+  ],
+  "scripts": {
+    "build": "node ../../scripts/gen.mjs && npx tsup && node ../../scripts/cp.mjs"
+  },
+  "keywords": [],
+  "author": "WGB5445 <wgb98512@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@wgb5445/aptos-move-stdlib": "workspace: *",
+    "@wgb5445/aptos-stdlib": "workspace: *"
+  }
+}
