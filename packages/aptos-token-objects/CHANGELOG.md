@@ -1,5 +1,11 @@
 # @wgb5445/aptos-token-objects
 
+## 1.0.2
+
+### Patch Changes
+
+- ef9f5de: fix
+
 ## 1.0.1
 
 ### Patch Changes

@@ -53,9 +53,9 @@ importers:
 
   packages/aptos-token-objects:
     dependencies:
-      '@wgb5445/aptos-move-stdlib':
+      '@wgb5445/aptos-framework':
         specifier: 'workspace: *'
-        version: link:../move-stdlib
+        version: link:../aptos-framework
       '@wgb5445/aptos-stdlib':
         specifier: 'workspace: *'
         version: link:../aptos-stdlib
